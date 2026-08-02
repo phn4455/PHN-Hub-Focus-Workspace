@@ -1,0 +1,9 @@
+{
+  "name": "Focus Workspace",
+  "short_name": "Focus",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#f4f1ea",
+  "theme_color": "#20332b"
+}

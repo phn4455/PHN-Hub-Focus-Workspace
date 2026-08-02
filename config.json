@@ -1,0 +1,243 @@
+{
+  "workspace": {
+    "name": "Focus Workspace",
+    "ownerName": "Patricia",
+    "tagline": "One place. Zero clutter. Start your day.",
+    "version": "2.0.0"
+  },
+  "home": [
+    {
+      "id": "email",
+      "label": "Email",
+      "icon": "\ud83d\udce7",
+      "description": "Choose an inbox"
+    },
+    {
+      "id": "calendar",
+      "label": "Calendar",
+      "icon": "\ud83d\udcc5",
+      "description": "Choose a calendar"
+    },
+    {
+      "id": "drive",
+      "label": "Drive",
+      "icon": "\ud83d\udcc1",
+      "description": "Open a folder"
+    },
+    {
+      "id": "ai",
+      "label": "AI",
+      "icon": "\ud83e\udd16",
+      "description": "AI and building tools"
+    },
+    {
+      "id": "projects",
+      "label": "Projects",
+      "icon": "\ud83d\udccb",
+      "description": "Active work"
+    },
+    {
+      "id": "settings",
+      "label": "Settings",
+      "icon": "\u2699\ufe0f",
+      "description": "Workspace options"
+    }
+  ],
+  "search": [
+    {
+      "label": "Google",
+      "icon": "\ud83c\udf10",
+      "template": "https://www.google.com/search?q={query}"
+    },
+    {
+      "label": "ChatGPT",
+      "icon": "\ud83e\udd16",
+      "template": "https://chatgpt.com/?q={query}"
+    },
+    {
+      "label": "Google Drive",
+      "icon": "\ud83d\udcc1",
+      "template": "https://drive.google.com/drive/u/0/my-drive?q={query}"
+    },
+    {
+      "label": "Gmail",
+      "icon": "\ud83d\udce7",
+      "template": "https://mail.google.com/mail/u/0/#search/{query}"
+    },
+    {
+      "label": "NotebookLM",
+      "icon": "\ud83d\udcda",
+      "template": "https://notebooklm.google.com/"
+    }
+  ],
+  "email": [
+    {
+      "label": "Personal",
+      "icon": "\ud83d\udc64",
+      "email": "patricia.nation@gmail.com"
+    },
+    {
+      "label": "Property",
+      "icon": "\ud83c\udfe0",
+      "email": "propertyphn4455@gmail.com"
+    },
+    {
+      "label": "Newsletters",
+      "icon": "\ud83d\udcf0",
+      "email": "pnation909@gmail.com"
+    },
+    {
+      "label": "Work",
+      "icon": "\ud83d\udcbc",
+      "email": "silvanus4455@gmail.com"
+    },
+    {
+      "label": "Geranium Hub",
+      "icon": "\ud83c\udfe2",
+      "email": "thegeraniumhub@gmail.com"
+    },
+    {
+      "label": "Other Patricia",
+      "icon": "\ud83d\udcec",
+      "email": "nation.patricia@gmail.com"
+    },
+    {
+      "label": "Hazel",
+      "icon": "\ud83c\udf3f",
+      "email": "hazel.nation@gmail.com"
+    }
+  ],
+  "calendar": [
+    {
+      "label": "Personal",
+      "icon": "\ud83d\udc64",
+      "email": "patricia.nation@gmail.com"
+    },
+    {
+      "label": "Property",
+      "icon": "\ud83c\udfe0",
+      "email": "propertyphn4455@gmail.com"
+    },
+    {
+      "label": "Newsletters",
+      "icon": "\ud83d\udcf0",
+      "email": "pnation909@gmail.com"
+    },
+    {
+      "label": "Combined view",
+      "icon": "\ud83d\uddd3\ufe0f",
+      "url": "https://calendar.google.com/calendar/u/0/r?authuser=patricia.nation@gmail.com"
+    }
+  ],
+  "drive": [
+    {
+      "label": "00 Inbox",
+      "icon": "\ud83d\udce5",
+      "url": "https://drive.google.com/drive/my-drive"
+    },
+    {
+      "label": "01 Projects",
+      "icon": "\ud83d\udcc2",
+      "url": "https://drive.google.com/drive/my-drive"
+    },
+    {
+      "label": "02 Business",
+      "icon": "\ud83c\udfe2",
+      "url": "https://drive.google.com/drive/my-drive"
+    },
+    {
+      "label": "03 Property",
+      "icon": "\ud83c\udfe0",
+      "url": "https://drive.google.com/drive/my-drive"
+    },
+    {
+      "label": "04 Personal",
+      "icon": "\ud83d\udc64",
+      "url": "https://drive.google.com/drive/my-drive"
+    },
+    {
+      "label": "05 Mum",
+      "icon": "\u2764\ufe0f",
+      "url": "https://drive.google.com/drive/my-drive"
+    },
+    {
+      "label": "06 Photos",
+      "icon": "\ud83d\udcf8",
+      "url": "https://drive.google.com/drive/my-drive"
+    },
+    {
+      "label": "07 Archive",
+      "icon": "\ud83d\udce6",
+      "url": "https://drive.google.com/drive/my-drive"
+    },
+    {
+      "label": "90 Templates",
+      "icon": "\ud83d\uddc2\ufe0f",
+      "url": "https://drive.google.com/drive/my-drive"
+    },
+    {
+      "label": "99 Temp",
+      "icon": "\ud83e\uddfa",
+      "url": "https://drive.google.com/drive/my-drive"
+    }
+  ],
+  "ai": [
+    {
+      "label": "ChatGPT",
+      "icon": "\ud83e\udd16",
+      "url": "https://chatgpt.com/"
+    },
+    {
+      "label": "Codex",
+      "icon": "\ud83e\udde9",
+      "url": "https://chatgpt.com/codex"
+    },
+    {
+      "label": "NotebookLM",
+      "icon": "\ud83d\udcda",
+      "url": "https://notebooklm.google.com/"
+    },
+    {
+      "label": "GitHub",
+      "icon": "\ud83d\udc19",
+      "url": "https://github.com/phn4455/PHN-Hub"
+    }
+  ],
+  "projects": [
+    {
+      "label": "Focus Workspace",
+      "icon": "\ud83c\udfaf",
+      "url": "https://github.com/phn4455/PHN-Hub"
+    },
+    {
+      "label": "AI Document Knowledge",
+      "icon": "\ud83d\udcd8",
+      "url": "https://drive.google.com/drive/my-drive"
+    },
+    {
+      "label": "Google Business Optimiser",
+      "icon": "\ud83d\udccd",
+      "url": "https://drive.google.com/drive/my-drive"
+    },
+    {
+      "label": "Geranium Hub",
+      "icon": "\ud83c\udf31",
+      "url": "https://drive.google.com/drive/my-drive"
+    },
+    {
+      "label": "Community Magazine",
+      "icon": "\ud83d\udcf0",
+      "url": "https://drive.google.com/drive/my-drive"
+    },
+    {
+      "label": "PHN Inventories",
+      "icon": "\ud83d\udccb",
+      "url": "https://drive.google.com/drive/my-drive"
+    },
+    {
+      "label": "Property",
+      "icon": "\ud83c\udfe0",
+      "url": "https://drive.google.com/drive/my-drive"
+    }
+  ]
+}
