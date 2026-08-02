@@ -1,73 +1,51 @@
 {
   "workspace": {
     "name": "Focus Workspace",
-    "ownerName": "Patricia",
     "tagline": "One place. Zero clutter. Start your day.",
-    "version": "2.0.0"
+    "version": "2.1.0"
   },
-  "home": [
-    {
-      "id": "email",
-      "label": "Email",
-      "icon": "\ud83d\udce7",
-      "description": "Choose an inbox"
-    },
-    {
-      "id": "calendar",
-      "label": "Calendar",
-      "icon": "\ud83d\udcc5",
-      "description": "Choose a calendar"
-    },
-    {
-      "id": "drive",
-      "label": "Drive",
-      "icon": "\ud83d\udcc1",
-      "description": "Open a folder"
-    },
-    {
-      "id": "ai",
-      "label": "AI",
-      "icon": "\ud83e\udd16",
-      "description": "AI and building tools"
-    },
-    {
-      "id": "projects",
-      "label": "Projects",
-      "icon": "\ud83d\udccb",
-      "description": "Active work"
-    },
-    {
-      "id": "settings",
-      "label": "Settings",
-      "icon": "\u2699\ufe0f",
-      "description": "Workspace options"
-    }
-  ],
   "search": [
     {
       "label": "Google",
       "icon": "\ud83c\udf10",
-      "template": "https://www.google.com/search?q={query}"
+      "button": "Search Google",
+      "url": "https://www.google.com/search?q={query}",
+      "query": true
     },
     {
       "label": "ChatGPT",
       "icon": "\ud83e\udd16",
-      "template": "https://chatgpt.com/?q={query}"
-    },
-    {
-      "label": "Google Drive",
-      "icon": "\ud83d\udcc1",
-      "template": "https://drive.google.com/drive/u/0/my-drive?q={query}"
+      "button": "Ask ChatGPT",
+      "url": "https://chatgpt.com/?q={query}",
+      "query": true
     },
     {
       "label": "Gmail",
       "icon": "\ud83d\udce7",
-      "template": "https://mail.google.com/mail/u/0/#search/{query}"
+      "button": "Search Gmail",
+      "url": "https://mail.google.com/mail/u/0/#search/{query}",
+      "query": true
+    },
+    {
+      "label": "Google Drive",
+      "icon": "\ud83d\udcc1",
+      "button": "Search Google Drive",
+      "url": "https://drive.google.com/drive/u/0/my-drive?q={query}",
+      "query": true
+    },
+    {
+      "label": "OneDrive",
+      "icon": "\u2601\ufe0f",
+      "button": "Open OneDrive",
+      "url": "https://onedrive.live.com/",
+      "query": false
     },
     {
       "label": "NotebookLM",
       "icon": "\ud83d\udcda",
-      "template": "https://notebooklm.google.com/"
+      "button": "Open NotebookLM",
+      "url": "https://notebooklm.google.com/",
+      "query": false
     }
   ],
   "email": [
@@ -200,14 +178,14 @@
     {
       "label": "GitHub",
       "icon": "\ud83d\udc19",
-      "url": "https://github.com/phn4455/PHN-Hub"
+      "url": "https://github.com/phn4455/PHN-Hub-Focus-Workspace"
     }
   ],
   "projects": [
     {
       "label": "Focus Workspace",
       "icon": "\ud83c\udfaf",
-      "url": "https://github.com/phn4455/PHN-Hub"
+      "url": "https://github.com/phn4455/PHN-Hub-Focus-Workspace"
     },
     {
       "label": "AI Document Knowledge",
