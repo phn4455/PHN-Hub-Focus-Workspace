@@ -12,16 +12,19 @@ Authoritative repository:
 https://github.com/phn4455/PHN-Hub-Focus-Workspace
 
 Current GitHub branch:
-codex/v2.2.0-recovery
+main
 
 Current GitHub version:
-v2.2.0 recovery branch
+v2.2.0
 
-Main branch version:
+Recovery branch:
+codex/v2.2.0-recovery
+
+Previous main branch version:
 v2.1.0
 
 Current target version:
-v2.2.0 recovery rebuild
+v2.3.0 planning
 
 ---
 
@@ -84,9 +87,13 @@ Recovery investigation completed on 2026-08-03 found:
 
 ## Version 2.2.0 Recovery Implementation
 
-Version 2.2.0 has been rebuilt on the recovery branch:
+Version 2.2.0 was rebuilt on the recovery branch:
 
 codex/v2.2.0-recovery
+
+Patricia visually tested and approved the recovery build on 2026-08-03.
+
+The recovery branch was approved to merge into main so GitHub Pages can update the live Focus Workspace.
 
 The rebuild preserves the v2.1.0 PHN Hub visual style and existing functionality.
 
@@ -110,8 +117,6 @@ Not implemented:
 - Workspace Builder
 - unified inbox
 - advanced calendar integration
-
-Main must remain unchanged until Patricia approves the completed recovery branch.
 
 ---
 
