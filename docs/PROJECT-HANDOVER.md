@@ -12,9 +12,12 @@ Authoritative repository:
 https://github.com/phn4455/PHN-Hub-Focus-Workspace
 
 Current GitHub branch:
-main
+codex/v2.2.0-recovery
 
 Current GitHub version:
+v2.2.0 recovery branch
+
+Main branch version:
 v2.1.0
 
 Current target version:
@@ -70,35 +73,45 @@ v2.2.0 - Navigation, Focus Resume and usability improvements
 
 Recovery investigation completed on 2026-08-03 found:
 
-- The current GitHub version is still v2.1.0.
+- The current GitHub version was still v2.1.0 before the recovery branch.
 - The previously reported local commit 7c3c1fe could not be found in the available local workspaces.
-- Version 2.2.0 was never pushed to GitHub.
+- Version 2.2.0 had never been pushed to GitHub.
 - No application code was modified during the recovery investigation.
-- Version 2.2.0 now needs to be rebuilt from the approved documentation and previous implementation report.
+- Version 2.2.0 needed to be rebuilt from the approved documentation and previous implementation report.
 - The GitHub repository is the authoritative project record.
 
 ---
 
-## Immediate Objective
+## Version 2.2.0 Recovery Implementation
 
-Produce and approve a Version 2.2.0 Recovery Plan before rebuilding.
+Version 2.2.0 has been rebuilt on the recovery branch:
 
-Version 2.2.0 should be rebuilt as a controlled recovery release.
+codex/v2.2.0-recovery
 
-The rebuild must:
+The rebuild preserves the v2.1.0 PHN Hub visual style and existing functionality.
 
-- preserve all current v2.1.0 functionality
-- preserve the existing PHN Hub visual style
-- avoid redesigning the application
-- avoid unrelated features
-- avoid subscriptions, white-label features, reseller tools and Workspace Builder
-- update README.md, docs/CHANGELOG.md, displayed version number and service worker cache version when implementation is approved
-- be committed and pushed to GitHub after approval
+Implemented:
 
-Recommended approach:
+- floating Home button on internal pages
+- browser Back support for internal navigation
+- calm Focus Resume prompt after returning from external services
+- remembered current page and selected search destination
+- preserved Today's Top Three local saving
+- keyboard shortcuts for Home, Search and Escape-to-Home
+- updated application version to v2.2.0
+- updated service worker cache version to v2.2.0
+- updated README.md and docs/CHANGELOG.md
 
-- rebuild Version 2.2.0 on a separate recovery branch first
-- review and test before merging or pushing to the main release line
+Not implemented:
+
+- subscriptions
+- white-label features
+- reseller tools
+- Workspace Builder
+- unified inbox
+- advanced calendar integration
+
+Main must remain unchanged until Patricia approves the completed recovery branch.
 
 ---
 
