@@ -8,8 +8,17 @@ Focus Workspace
 Repository:
 PHN-Hub-Focus-Workspace
 
+Authoritative repository:
+https://github.com/phn4455/PHN-Hub-Focus-Workspace
+
+Current GitHub branch:
+main
+
+Current GitHub version:
+v2.1.0
+
 Current target version:
-2.2.0
+v2.2.0 recovery rebuild
 
 ---
 
@@ -43,53 +52,59 @@ docs/ROADMAP.md
 
 docs/CHANGELOG.md
 
+docs/PROJECT-HANDOVER.md
+
 ---
 
-## Previous Codex Session
+## Recovery Investigation
 
-Version 2.2.0 was implemented.
+Version 2.2.0 was previously reported as implemented in a local Codex session.
 
 Reported local commit:
 
 7c3c1fe
 
-Commit message:
+Reported commit message:
 
 v2.2.0 - Navigation, Focus Resume and usability improvements
 
-The previous Codex session reported:
+Recovery investigation completed on 2026-08-03 found:
 
-- local commit completed
-- NOT pushed to GitHub
-- all automated tests passed
-- Windows visual testing still required
-
-Current status of that local commit is UNKNOWN.
-
-The first task is to determine whether commit 7c3c1fe still exists.
-
-Do not recreate work until this has been checked.
+- The current GitHub version is still v2.1.0.
+- The previously reported local commit 7c3c1fe could not be found in the available local workspaces.
+- Version 2.2.0 was never pushed to GitHub.
+- No application code was modified during the recovery investigation.
+- Version 2.2.0 now needs to be rebuilt from the approved documentation and previous implementation report.
+- The GitHub repository is the authoritative project record.
 
 ---
 
 ## Immediate Objective
 
-If commit 7c3c1fe exists:
+Produce and approve a Version 2.2.0 Recovery Plan before rebuilding.
 
-- inspect it
-- review it
-- verify documentation
-- verify version number
-- verify service worker
-- verify CHANGELOG
-- perform any remaining checks
-- push to GitHub after approval
+Version 2.2.0 should be rebuilt as a controlled recovery release.
 
-If commit 7c3c1fe no longer exists:
+The rebuild must:
 
-produce a recovery plan before writing any code.
+- preserve all current v2.1.0 functionality
+- preserve the existing PHN Hub visual style
+- avoid redesigning the application
+- avoid unrelated features
+- avoid subscriptions, white-label features, reseller tools and Workspace Builder
+- update README.md, docs/CHANGELOG.md, displayed version number and service worker cache version when implementation is approved
+- be committed and pushed to GitHub after approval
 
-Do not rebuild blindly.
+Recommended approach:
+
+- rebuild Version 2.2.0 on a separate recovery branch first
+- review and test before merging or pushing to the main release line
+
+---
+
+## Permanent Release Rule
+
+No development session is complete until the approved work has been committed, the project documentation and PROJECT-HANDOVER.md have been updated, and the approved commit has been pushed successfully to GitHub.
 
 ---
 
